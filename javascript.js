@@ -22,7 +22,7 @@
     let displayWebsiteElement;
     let transcriptArr;
     let notedata="";
-    let micLoop=true;
+    let micLoop=false;
  
 
     function deActivateJarvis(){
@@ -41,12 +41,11 @@
     var recognition= new SpeechRecognition();
     var buttonelement=document.getElementById("voiceCommand");
     buttonelement.addEventListener("click",function(){
-        recognition.continue=true
         recognition.start()
-        recognition.continue=true
         micLoop=true;
         buttonelement.style.display="none"
         document.getElementById("stopVoiceCommand").style.display="inline"
+        setInterval(startRecognitionAgain,2000)
         
     });
  
@@ -103,7 +102,7 @@
 
                 case ("jarvis what is current weather condition of"):  
                 
-                let Api="https://api.openweathermap.org/data/2.5/weather?q="
+                let Api="http://api.openweathermap.org/data/2.5/weather?q="
                 let ApiID="&units=metric&APPID=9f82a8fd7c98cd1e8b42e2cdecc3f54b"
                 let inputValue="indore"
                 fetch(Api+modifyTranscript2+ApiID).then(function (response){
@@ -278,14 +277,18 @@
 
 
 
-             recognition.stop()
+             
+        // recognition.stop()
             // startRecognitionAgain()
-        setInterval(startRecognitionAgain,5000);
+        // setInterval(startRecognitionAgain,3000)
         
         
     }
+
+    //setInterval(startRecognitionAgain,3000)
+
     function startRecognitionAgain(){
-      if(!speechSynthesis.speaking) {
+      if(!speechSynthesis.speaking && micLoop) {
         recognition.start()
       }
     }
