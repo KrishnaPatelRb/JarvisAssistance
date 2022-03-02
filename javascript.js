@@ -102,7 +102,7 @@
 
                 case ("jarvis what is current weather condition of"):  
                 
-                let Api="http://api.openweathermap.org/data/2.5/weather?q="
+                let Api="https://api.openweathermap.org/data/2.5/weather?q="
                 let ApiID="&units=metric&APPID=9f82a8fd7c98cd1e8b42e2cdecc3f54b"
                 let inputValue="indore"
                 fetch(Api+modifyTranscript2+ApiID).then(function (response){
