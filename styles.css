@@ -1,0 +1,124 @@
+body{
+    background: rgb(241, 236, 225);
+    
+} 
+
+   
+#header{
+    width: 100%;
+    position: fixed;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    
+}
+.commandDiv{
+    position: fixed;
+    color: black;
+    font-size: 20px;
+    border: none;
+    left: 18%;
+    overflow: hidden;
+}
+.mic{
+    position: fixed;
+    left: 56.2%;
+    color: black;
+    border: rgba(0, 0,0,0.5);
+    font-size: 20px;
+    border: none;
+    margin-left: 10px; 
+}
+.closeMic{
+    position: fixed;
+    left: 56.3%;
+    color: black;
+    border: rgba(0, 0,0,0.5);
+    font-size: 20px;
+    border: none;
+    margin-left: 10px;
+    display: none;
+}
+
+#yourCommand{
+    bottom: 0;
+    position: fixed;
+    margin: 1%;
+    overflow: hidden;
+}
+#note{
+    position: fixed;
+    top: 20%;
+    margin-left: 20%;
+    width: 76%;
+    height: 60%;
+    text-overflow:auto;
+    display: none;
+}
+#websiteHtml{
+    position: fixed;
+    top: 9.5%;
+    left: 18.5%;
+    width: 40%;
+    height: 83%;
+    text-overflow:auto;
+    background-color: aqua; 
+    display: none; 
+    overflow: auto;
+}
+#displayWebsite{
+    background-color: blue;
+    position: fixed;
+    top: 9.5%;
+    left: 58.9%;
+    width: 41%;
+    height: 83.8%;
+    display: none;
+    overflow: auto; 
+}
+.name{
+    position: fixed;
+    margin-top: 11%;
+    left: 39.9%;
+    font-family:fantasy;
+    font-variant: small-caps;
+    font-size:105px;
+}
+.logo{
+    position: fixed;
+    margin-top: 10.9%;
+    left: 70.5%;
+}
+img{
+    height: 50px;
+    width: 70px;
+}
+.main-page-text{
+    position: fixed;
+    margin-top: 19%;
+    left: 40%;
+    width: 42%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.lefter{
+    position: fixed;
+    background-color: black;
+    height: 100%;
+    width: 18%;
+    margin-top: -10px;
+}
+#home{
+    
+    background: none;
+    border: none;
+    position: fixed;
+    left: 7.8%;
+    top: 5%;
+}
+#document{
+    background: none;
+    border: none;
+    position: fixed;
+    left: 5.9%;
+    top: 20%;
+}
