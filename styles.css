@@ -11,6 +11,7 @@ body{
     grid-template-columns: auto auto auto;
     justify-content: center;
     
+    
 }
 .commandDiv{
     position: fixed;
@@ -95,7 +96,7 @@ img{
 }
 .main-page-text{
     position: fixed;
-    margin-top: 19%;
+    margin-top: 18%;
     left: 40%;
     width: 42%;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -104,8 +105,9 @@ img{
     position: fixed;
     background-color: black;
     height: 100%;
-    width: 18%;
+    width: 19%;
     margin-top: -10px;
+    margin-left: -10px;
 }
 #home{
     
@@ -120,5 +122,95 @@ img{
     border: none;
     position: fixed;
     left: 5.9%;
+    top: 32%;
+}
+#commandContainer{
+    background: none;
+    border: none;
+    position: fixed;
+    left: 5.9%;
     top: 20%;
+}
+#commandlist1,#commandlist2,#commandlist3,#commandlist4,#commandlist5,#commandlist6,#commandlist7,#commandlist8,#commandlist9,#commandlist10,#commandlist11,#commandlist12,#commandlist13,#commandlist14,#commandlist15,#commandlist16,#commandlist17,#commandlist19{
+    background: none;
+    border: none;
+    position: fixed; 
+    padding-left: 5px;
+    padding-right: 5px;
+    color: antiquewhite;
+    background-color: rgb(49, 45, 45);
+    width: 31%;
+}
+#commandlist1{
+    left: 20%;
+    top: 51%;
+}
+#commandlist2{
+    left: 20%;
+    top: 53.3%;
+}
+#commandlist3{
+    left: 20%;
+    top: 55.6%;
+}
+#commandlist4{
+    left: 20%;
+    top: 57.9%;
+}
+#commandlist5{
+    left: 20%;
+    top: 60.2%;
+}
+#commandlist6{
+    left: 20%;
+    top: 62.5%;
+}
+#commandlist7{
+    left: 20%;
+    top: 64.8%;
+}
+#commandlist8{
+    left: 20%;
+    top: 67.1%;
+}
+#commandlist9{
+    left: 20%;
+    top: 69.4%;
+}
+#commandlist10{
+    left: 20%;
+    top: 71.7%;
+}
+#commandlist11{
+    left: 20%;
+    top: 74%;
+}
+#commandlist12{
+    left: 20%;
+    top: 76.3%;
+}
+#commandlist13{
+    left: 20%;
+    top: 78.6%;
+}
+#commandlist14{
+    left: 20%;
+    top: 80.9%;
+}
+#commandlist15{
+    left: 20%;
+    top: 83.2%;
+}
+#commandlist16{
+    left: 20%;
+    top: 85.5%;
+}
+#commandlist17{
+    left: 20%;
+    top: 87.8%;
+}
+
+#commandlist19{
+    left: 20%;
+    top: 90.1%;
 }
